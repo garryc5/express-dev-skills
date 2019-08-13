@@ -7,8 +7,17 @@
     <title>Skills</title>
 </head>
 <body>
+        <h1>Skills</h1><br>
         <% skills.forEach(function(skill,idx){ %>
-            <br><a href="/skills/<%=idx%>"><%=skill%></a>
-        <% }); %>
+            <br>
+            <a href="/skills/<%=idx%>"><%=skill%>  click to edit</a>
+            <form action="/skills/<%=idx%>?_method=DELETE" method="post"> 
+            <button>Lost The Skill?</button>
+            </form>
+            <% }); %>
+            <br>
+        <form action="/skills" method="post">
+        <input type="text" name="newSkill"><button>Add skill</button>
+        </form>
 </body>
 </html>

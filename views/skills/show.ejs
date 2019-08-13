@@ -9,6 +9,9 @@
 <body>
         <h1>Skill <%=skills[1]%>:</h1>
         <h1><%=skills[0]%></h1>
-
+        <form action="/skills/<%=skills[1]-1%>/edit" method="post">
+            <input type="text"name ="newSkill" >
+            <button>Submit change</button>
+        </form>
 </body>
 </html>
