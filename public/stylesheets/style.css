@@ -1,4 +1,4 @@
-body {
+body, form {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   margin: auto;
@@ -9,7 +9,10 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+form
+{
+  padding: 0;
+}
 a {
   color: #00B7FF;
 }
