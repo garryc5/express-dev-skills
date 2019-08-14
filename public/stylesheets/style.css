@@ -24,5 +24,21 @@ h1, div
 }
 button
 {
-  padding: 1vmin 7vmin;
+  height:3vmin;
+  width:  28vmin;
+}
+button:hover
+{
+  background-color: purple;
+  color: lightgreen;
+}
+footer
+{
+  text-align: end;
+  padding-top: 100px;
+}
+input
+{
+  width: 28vmin;
+  height: 5vmin;
 }
