@@ -11,7 +11,7 @@
         <h1>Skill <%=skills[1]%>:</h1>
         <h1><%=skills[0]%></h1>
         <form action="/skills/<%=skills[1]-1%>/edit?_method=PUT" method="post">
-            <input type="text"name ="newSkill" >
+            <input type="text"name ="newSkill" placeholder="<%=skills[0]%>">
             <button>Submit change</button>
         </form>
 </body>
