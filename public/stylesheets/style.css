@@ -1,8 +1,28 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: auto;
+  background-color: lightgreen;
+  color: black; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 a {
   color: #00B7FF;
+}
+h1, div
+{
+  background-color: navajowhite;
+  border: 1vmin solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 1vmin 6vmin;
+}
+button
+{
+  padding: 1vmin 7vmin;
 }

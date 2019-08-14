@@ -16,7 +16,7 @@ function skillDelete(req,res)
     skills.deleteSkill(req.params.id);
     res.redirect('/skills')
 }
-function edit(req,res)
+function update(req,res)
 {
     skills.edit(req.params.id, req.body.newSkill)
     res.redirect('/skills')
@@ -26,5 +26,5 @@ module.exports = {
       show,
       create,
       delete:skillDelete,
-      edit
+      update
     }
